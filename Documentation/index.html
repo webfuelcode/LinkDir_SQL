@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LinkDir - Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="assets/all.js"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/styles.css">
+
+</head> 
+
+<body>
+    <div class="page-wrapper">
+
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><span aria-hidden="true" class="icon icon_genius"></span> LinkDir</h1>
+                    <div class="meta"><i class="far fa-clock"></i> Documentation</div>
+                </div><!--//doc-header-->
+                <div id="showcase" class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="welcome" class="doc-section">
+                                <div class="jumbotron">
+                                    <h1><i class="fas fa-heart"></i> LinkDir! Web directory script in PHP</h1>
+                                    <p>Please read through each of the section. Each topic contains detailed documention on website setup with <span class="text-success">LinkDir</span>.</p>
+                                    <a class="scrollto btn btn-blue btn-cta" href="#theme-start">Explore Now</a>
+                                </div><!--//jumbotron-->
+                                <h2 id="intro" class="section-title">Introduction</h2>
+                                <div class="section-block">
+                                    <div class="row">
+                                        <p class="col-md-12">LinkDir is a simple web directory script to make an online site directory. This script is very simple and can be used for various purposes.</p>
+										<p class="col-md-12">With your small team you have the ability to manage members to post upto 5 entries. Edit their entries or just delete.</p>
+										<p class="col-md-12">Build a niche website on any topic like, earning list, crypto-currency site list, legit sites, online tools web list, photography or basic product list site or any other micro niche. Basically it is a directory script where you can manage members, add/edit category, posts.</p>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+                            
+                            <section id="require" class="doc-section">
+                                <h2 class="section-title">Server Requirements</h2>
+                                <div class="section-block">
+                                    <div class="row">
+									<p class="col-md-12">You will need to make sure your server meets the following requirements. Most of the web hosting providers give the ability to change or you can ask them.</p>
+                                        <div class="col-md-12">
+											<ul>
+                                                <li>PHP >= 7.2.5</li>
+                                                <li>BCMath PHP Extension</li>
+                                                <li>Ctype PHP Extension</li>
+                                                <li>Fileinfo PHP extension</li>
+                                                <li>JSON PHP Extension</li>
+                                                <li>Mbstring PHP Extension</li>
+                                                <li>OpenSSL PHP Extension</li>
+                                                <li>PDO PHP Extension</li>
+                                                <li>Tokenizer PHP Extension</li>
+                                                <li>XML PHP Extension</li>
+                                            </ul>
+										</div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+
+                            <section id="install" class="doc-section">
+                                <h2 class="section-title">Installation</h2>
+                                <div class="section-block">
+                                    <div class="row">
+									<p class="col-md-12">Follow the below steps to get strated.</p>
+                                        <div class="col-md-12">
+											<ul>
+                                                <li>Unzip the source package.</li>
+                                                <li>Move files from the <span class="text-danger">Public</span> folder in the root. <span class="text-success">(Means under the <span class="text-danger">public_html</span> folder)</span></li>
+                                                <li>Put the other files in separate folder. <span class="text-success">(See the video for help)</span></li>
+                                                <li>When the uploading is done you have to make sure the <span class="text-danger">index.php</span> file point to the correct folder/directory.</li>
+                                                <li>For database settings, you have to open <span class="text-danger">.env</span> file. Which is a hidden file. Go to FTP settings to see hidden files.</li>
+                                                <li>And then enter the required details according to your host.</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <div class="my-2">
+                                                Enter your database details in <span class="text-success">DB_DATABASE, DB_USERNAME</span> & <span class="text-success">DB_PASSWORD</span><br>
+                                                <img src="database.png" alt="Database setup">
+                                            </div>
+
+                                            <div class="my-2">
+                                                One more setup is to fill the app detail. When a welcome mail is sent your site link will be present on that email. This is optional but required for branding.<br>
+                                                Fill the <span class="text-success">APP_NAME="your site name"</span> & <span class="text-success">APP_URL="your site URL"</span>
+                                                <img src="app_name.png" alt="Site project domain">
+                                            </div>
+                                        </div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//doc-section-->
+
+                            <section id="email" class="doc-section">
+                                <h2 class="section-title">Email settings</h2>
+                                <div class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="my-2">
+                                                Another important part is to set the email server becasue LinkDir send welcome email to newly registered members on registration. Email is required when they request new password on forgot password page. The script will work fine if you do not set it. Find here <a href="http://www.wall-spot.com/best-free-smtp-servers-for-sending-emails/" target="_blank">free SMTP servers</a><br>
+                                                <div class="card bg-light p-4 m-2">
+                                                    Email sent for two purposes. First, when new members get registered and second, when they forget password and use the password reset page.
+                                                </div>
+                                                <div class="card bg-danger p-4 m-4 text-light">
+                                                    Gmail does provide free SMTP. If you have no two factor authentication, mailing will work instantly. Recommendation is to use the host's provided STMP server for better and easy setup.
+                                                </div>
+                                                <img src="mail_smtp.png" alt="SMTP setup">
+                                            </div>
+                                        </div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//section-->
+
+                            <section id="credits" class="doc-section">
+                                <h2 class="section-title">Credits</h2>
+                                <div class="section-block">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><a href="http://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a></li>
+                                                <li><a href="http://fontawesome.io/" target="_blank" rel="noopener noreferrer">Fontawesome</a></li>
+                                                <li><a href="https://bootswatch.com/" target="_blank" rel="noopener noreferrer">Bootswatch</a></li>
+                                                <li><a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul>
+                                                <li><a href="http://pixloger.com" target="_blank" rel="noopener noreferrer">Pixloger</a></li>
+                                                <li><a href="https://themes.3rdwavemedia.com/" target="_blank" rel="noopener noreferrer">3rdwavemedia</a></li>
+                                                <li><a href="https://github.com/ColorlibHQ/gentelella" target="_blank" rel="noopener noreferrer">Gentelella</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!--//row-->
+                                </div><!--//section-block-->
+                            </section><!--//section-->
+                                                        
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto" href="#intro">Introduction</a>
+                                <a class="nav-link scrollto" href="#require">Requirements</a>
+                                <a class="nav-link scrollto" href="#install">Installation</a>
+                                <a class="nav-link scrollto" href="#email">Email Settings</a>
+                                <a class="nav-link scrollto" href="#credits">Credits</a>
+                            </nav><!--//doc-menu-->
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+       <div id="promo-block" class="promo-block">
+            <div class="container">
+                <div class="promo-block-inner">
+                    <h3 class="promo-title text-center"><i class="fas fa-heart"></i> <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Are you an ambitious and entrepreneurial developer?</a></h3>
+                    <div class="row">
+                        <div class="figure-holder col-lg-5 col-md-6 col-12">
+                            <div class="figure-holder-inner">
+                                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><img class="img-fluid" src="assets/images/demo/instance-promo.jpg" alt="Instance Theme" /></a>
+                                <a class="mask" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/"><i class="icon fa fa-heart pink"></i></a>
+                                
+                            </div>
+                        </div><!--//figure-holder-->
+                        <div class="content-holder col-lg-7 col-md-6 col-12">
+                            <div class="content-holder-inner">
+                                <div class="desc">
+                                    <h4 class="content-title"><strong> Instance - Bootstrap 4 Portfolio Theme for Aspiring Developers</strong></h4>
+                                    <p>Check out <a href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance</a> - a Bootstrap personal portfolio theme I created for developers. The UX design is focused on selling a developer’s skills and experience to potential employers or clients, and has <strong class="highlight">all the winning ingredients to get you hired</strong>. It’s not only a HTML site template but also a marketing framework for you to <strong class="highlight">build an impressive online presence with a high conversion rate</strong>. </p>
+                                    <p><strong class="highlight">[Tip for developers]:</strong> If your project is Open Source, you can use this area to promote your other projects or hold third party adverts like Bootstrap and FontAwesome do!</p>
+                                    <a class="btn btn-cta" href="https://themes.3rdwavemedia.com/bootstrap-templates/portfolio/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i> View Demo</a>
+                                    
+                                </div><!--//desc-->
+                                
+                                
+                                <div class="author"><a href="https://themes.3rdwavemedia.com">Xiaoying Riley</a></div>
+                            </div><!--//content-holder-inner-->
+                        </div><!--//content-holder-->
+                    </div><!--//row-->
+                </div><!--//promo-block-inner-->  
+            </div><!--//container-->
+        </div><!--//promo-block-->
+        
+    </div><!--//page-wrapper-->
+    
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+</body>
+</html> 
+
