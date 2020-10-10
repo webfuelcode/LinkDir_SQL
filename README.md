@@ -14,3 +14,8 @@ OpenSSL PHP Extension<br>
 PDO PHP Extension<br>
 Tokenizer PHP Extension<br>
 XML PHP Extension
+
+# Admin account
+After setup use admin username and password.
+Username: admin@site.com
+Password: 12345678
