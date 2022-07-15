@@ -1,7 +1,7 @@
 # LinkDir_SQL
 LinkDir is a simple web directory project. Building a niche web directory which gives members the ability to post up to 5 posts. (contains SQL and template file to upload easily on shared hosting or even on free web hosts)
 
-Built on laravel framework and here are the files to get it started instantly for everyone. Provided SQL and templates to make it easy to host on all web host plans.
+Version 2.x released which has more features that a good web-directory is needed. Comment and star rating system included, homepage has managed to show more contents with modified categories(4) and featured listings (Rated post will appear).
 
 ## Requirements
 Minimum server requirement to run this project:<br>
@@ -15,6 +15,9 @@ OpenSSL PHP Extension<br>
 PDO PHP Extension<br>
 Tokenizer PHP Extension<br>
 XML PHP Extension
+
+## Source
+(https://sourceforge.net/projects/linkdir-web-directory-script/)
 
 ## Admin account
 After setup use admin username and password.
