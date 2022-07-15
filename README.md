@@ -17,8 +17,8 @@ Tokenizer PHP Extension<br>
 XML PHP Extension
 
 ## Source
-[SourceForge](https://sourceforge.net/projects/linkdir-web-directory-script/)
-[Server requirements](https://webfuelcode.wall-spot.com/linkdir-free-web-directory-script/)
+* [SourceForge link](https://sourceforge.net/projects/linkdir-web-directory-script/)
+* [Server requirements](https://webfuelcode.wall-spot.com/linkdir-free-web-directory-script/)
 
 ## Admin account
 After setup use admin username and password.
