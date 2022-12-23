@@ -20,6 +20,10 @@ XML PHP Extension
 * [SourceForge link](https://sourceforge.net/projects/linkdir-web-directory-script/)
 * [Server requirements](https://webfuelcode.wall-spot.com/linkdir-free-web-directory-script/)
 
+## Install
+* **Install** YourSite.com/install
+* **Update** YourSite.com/update
+
 ## Admin account
 After setup use admin username and password.
 Username: admin@site.com
