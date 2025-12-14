@@ -1,7 +1,7 @@
 # LinkDir_SQL
 LinkDir is a simple web directory project. Building a niche web directory that gives members the ability to post up to 5 posts. (contains SQL and template file to upload easily on shared hosting or even on free web hosts)
 
-Version 2.x has been released, which has more features that a good web directory is needed. Comment and star rating system included, homepage has managed to show more content with modified categories(4) and featured listings (Rated post will appear).
+Version 2.x has been released, which has more features that require a good web directory. Comment and star rating system included, homepage has managed to show more content with modified categories(4) and featured listings (Rated post will appear).
 
 ## Requirements
 Minimum server requirement to run this project:<br>
@@ -22,7 +22,7 @@ Using a higher PHP version, like 8.0 or above, will cause errors and break your 
 
 ## Source
 * [SourceForge link](https://sourceforge.net/projects/linkdir-web-directory-script/)
-* [Server requirements](https://webfuelcode.wall-spot.com/linkdir-free-web-directory-script/)
+* [Server requirements](https://gopickhost.com/linkdir-web-directory-script/)
 
 ## Install
 * **Install** YourSite.com/install
