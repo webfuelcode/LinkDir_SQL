@@ -6,7 +6,7 @@ LinkDir 3.X is built in PHP and HTMX, so now easy to manage and set up. You will
 # LinkDir_SQL
 LinkDir is a simple web directory project. Building a niche web directory that gives members the ability to post up to 5 posts. (contains SQL and template file to upload easily on shared hosting or even on free web hosts)
 
-Version 2.x has been released, which has more features that require a good web directory. Comment and star rating system included, homepage has managed to show more content with modified categories(4) and featured listings (Rated post will appear).
+Version 2.x has been released, which has more features that require a good web directory. Comment and star rating system included; the homepage has managed to show more content with modified categories(4) and featured listings (Rated post will appear).
 
 ## Requirements
 Minimum server requirements to run this project:<br>
@@ -29,11 +29,15 @@ Using a higher PHP version, like 8.0 or above, will cause errors and break your 
 * [SourceForge link](https://sourceforge.net/projects/linkdir-web-directory-script/)
 * [Server requirements](https://gopickhost.com/linkdir-web-directory-script/)
 
-## Install
+## Install (for V1 and V2)
 * **Install** YourSite.com/install
 * **Update** YourSite.com/update
 
-## Admin account
-After setup use admin username and password.
+* **Installation steps for V3 are available in the ZIP download**
+
+## Admin account (for V1 and V2)
+After setup, use the admin username and password.
 Username: admin@site.com
 Password: 12345678
+
+* **Admin a/c instructions for V3 are available in the ZIP download**
