@@ -1,3 +1,6 @@
+# Magor Update
+LinkDir 3.0 is built in PHP and HTMX, so now easy to manage and set up. You will get the guide file to set up on the server.
+
 # LinkDir_SQL
 LinkDir is a simple web directory project. Building a niche web directory that gives members the ability to post up to 5 posts. (contains SQL and template file to upload easily on shared hosting or even on free web hosts)
 
