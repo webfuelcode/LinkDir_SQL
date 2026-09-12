@@ -1,5 +1,7 @@
 # Major Update
-LinkDir 3.0 is built in PHP and HTMX, so now easy to manage and set up. You will get the guide file to set up on the server.
+LinkDir 3.X is built in PHP and HTMX, so now easy to manage and set up. You will get the guide file to set up on the server.
+* V 3.0 less footer control and unlimited entry, not pages to create.
+* V 3.1 lets you dynamic footer area. Description text to change, pages to create/update, and member entry limitation to set.
 
 # LinkDir_SQL
 LinkDir is a simple web directory project. Building a niche web directory that gives members the ability to post up to 5 posts. (contains SQL and template file to upload easily on shared hosting or even on free web hosts)
