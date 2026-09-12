@@ -1,4 +1,4 @@
-# Magor Update
+# Major Update
 LinkDir 3.0 is built in PHP and HTMX, so now easy to manage and set up. You will get the guide file to set up on the server.
 
 # LinkDir_SQL
@@ -7,7 +7,7 @@ LinkDir is a simple web directory project. Building a niche web directory that g
 Version 2.x has been released, which has more features that require a good web directory. Comment and star rating system included, homepage has managed to show more content with modified categories(4) and featured listings (Rated post will appear).
 
 ## Requirements
-Minimum server requirement to run this project:<br>
+Minimum server requirements to run this project:<br>
 PHP >= 7.2.5<br>
 BCMath PHP Extension<br>
 Ctype PHP Extension<br>
